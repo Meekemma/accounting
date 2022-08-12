@@ -21,3 +21,19 @@ ul{
     list-style-type: none;
     text-decoration: none;
 }
+
+img {
+    width: 100%;
+    height: auto;
+  }
+
+  .carousel {
+    width:640px;
+    height:360px;
+  }
+
+.box{
+    width: 50px;
+    height: 50px;
+    border: 16px;
+}
