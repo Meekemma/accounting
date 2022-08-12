@@ -18,4 +18,7 @@ def team(request):
     return render(request, 'accounts/team.html')
 
 def frequent_question(request):
-    return render(request, 'accounts/frequent_question.html')    
+    return render(request, 'accounts/frequent_question.html')   
+
+def team_info(request):
+    return render(request, 'accounts/info.html')   
