@@ -18,10 +18,21 @@
 
     <br class="mt-5">
     <section class="py-5">
+      <div class="pt-4">
+        <ul class="nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="{% url 'home' %}"><i class="bi bi-house-door"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled">About</a>
+          </li>
+        </ul>
+        <hr>
+      </div>
       <div class="row  flex-wrap">
         <div class="col-xs-12 col-sm-6 col-md-9">
           <div class="py-5 px-3">
-            <h2 class="text-danger">Background</h2>
+            <h2 class="text-danger fw-bolder">Background</h2>
             <p>Ebenezer Malomo & Company is a firm of Chartered Accountants, 
               which provides Auditing, Taxation, Accountancy and Management Consultancy Services to Individuals, 
               Corporate Bodies, Government and Non-Governmental Organizations. 
@@ -35,7 +46,7 @@
 
 
          <div class="py-3 shadow-lg p-3 mb-5 bg-white rounded">
-          <h5 class="text-decoration-underline text-danger pb-5">Our Values</h5>
+          <h5 class="text-decoration-underline text-danger pb-5 fw-bolder">Our Values</h5>
           <div class="row text-dark">
             <dt class="">Passion</dt>
             <dd>
@@ -92,7 +103,32 @@
             </dd>
 
         </div>
-         </div>
+        </div>
+
+        <div class="shadow-none p-3 mb-5 bg-light rounded bg-dark">
+          <h3 class="text-danger fw-bolder">Reporting</h3>
+            <p class="fs-5">
+             We will make use of modern analytical method,
+             statistics and Information and Communication Technology (ICT) in generating our final report on each
+             assignment.  We will prepare progress reports based on the audit work, meetings and clarifications with
+             any relevant or appropriate authorities.  The Final Report will be submitted after a review 
+             meeting or discussions with the relevant authority on issues raised on the draft report.
+             We are in a good position to produce clear and accurate reports within the shortest time possible.
+            </p>
+            <br>
+            <h3 class="text-danger fw-bolder">Our Fees</h3>
+            <p class="fs-5">Our fees are reasonable and negotiable.  They are usually based on the standard approved by the profession</p>
+
+            <br>
+            <h3  class="text-danger fw-bolder">Other Benefits</h3>
+            <p class="fs-5">The Financial Statements are usually presented in simple, clear terms and easily understandable by all users.</p><hr>
+            <p class="fs-5">The effectiveness of the accounting and internal control procedures of the reporting entity is usually highlighted.</p><hr>
+            <p class="fs-5">The reliability of the values of the assets and liabilities will be established.</p>
+
+
+        </div>
+
+
 
         </div>
 
@@ -103,21 +139,16 @@
             <ul class="list-unstyled">
               <li>
                 <a href="{% url 'team' %}" class="text-decoration-none ">
-                  <span class="fs-5 text-danger"><i class="bi bi-arrow-right"></i> Our Team</span>
+                  <span class="fs-5 text-danger fw-bolder"><i class="bi bi-arrow-right"></i> Our Team</span>
                 </a>
               </li>
-      
-              <li>
-                <a href="#" class="text-decoration-none ">
-                  <span class="fs-5 text-danger"><i class="bi bi-arrow-right"></i> Our Procedure</span>
-                </a>
-              </li>
+
             </ul>
           </div>
           
 
           <div class="">
-            <h5>Our Vision</h5>
+            <h5 class="fw-bolder">Our Vision</h5>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore repudiandae sequi voluptas exercitationem. Accusantium necessitatibus, eius eaque 
               dicta eveniet odio dolore dignissimos architecto reiciendis perspiciatis repellat ipsum dolor. 
               Molestias, accusamus.
@@ -125,10 +156,27 @@
           </div>
 
           <div class="py-2">
-            <h5>Our Mission</h5>
+            <h5 class="fw-bolder">Our Mission</h5>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, beatae atque obcaecati ipsam soluta alias 
               facilis eum maiores dolor natus sit sint eius doloribus 
               quod blanditiis voluptatibus eligendi tempora veniam?
+            </p>
+          </div>
+
+          <div class="py-2">
+            <h5 class="fw-bolder">Our Approach</h5>
+            <p>
+              We carefully plan audit exercises and stress efficient use of resources towards achieving set target.  
+              We apply provisions of Auditing Standards and Guidelines, Companies and Allied Matters Decree to our jobs.
+            </p>
+          </div>
+
+          <div class="py-2">
+            <h5 class="fw-bolder">Experienced Staff</h5>
+            <p>
+              We have engaged high level professional staff who are conversant with current standard/guidelines, 
+              Statutes and have diverse background and experience successfully different audit and investigation jobs
+               in the past.
             </p>
           </div>
 
@@ -141,7 +189,7 @@
                 <p class="fs-3">we will develope service process that is appropriate for your need.</p>
               
                 <div class="py-3">
-                  <a href="#" class="btn btn-primary"><i class="bi bi-telephone-inbound px-2"></i>:  +234 (0) 803714 3355</a>
+                  <a href="tel:+234 803714 3355" class="btn btn-primary"><i class="bi bi-telephone-inbound px-2"></i>: +234 803714 3355</a>
                 </div>
 
                 <div class="py-1">

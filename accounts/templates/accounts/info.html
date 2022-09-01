@@ -16,9 +16,24 @@
     <div class="container">
     {% block content %}
     <br>
+    <br>
     <section class="py-5">
-        <br>
-        <div class="shadow-lg p-3 mb-5 bg-white rounded ">
+        <div class="pt-4">
+            <ul class="nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="{% url 'home' %}"><i class="bi bi-house-door"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="{% url 'team' %}">Team</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Team-info</a>
+              </li>
+            </ul>
+            <hr>
+          </div>
+       
+        <div class="shadow-lg p-3 mb-5 bg-white rounded mt-5">
             <div class="row">
                 <div class="col-xs-12 col-sm-6 col-md-3">
                     <div style="width: 12rem;">
@@ -42,12 +57,14 @@
                  </div>
             </div>
 
+
+
             <br>
             <hr class="text-danger">
             <div class="row">
                 <div class="col-xs-12 col-sm-6 col-md-3">
                     <div style="width: 12rem;">
-                        <img src="{% static 'images/man.jpg' %}" alt="" class="img-resoinsive">
+                        <img src="{% static 'images/adepoju.jpg' %}" alt="" class="img-resoinsive">
                     </div>
                  </div>
                  <div class="col-xs-12 col-sm-6 col-md-9 text-dark pt-5">
@@ -69,7 +86,7 @@
             <div class="row">
                 <div class="col-xs-12 col-sm-6 col-md-3">
                     <div style="width: 12rem;">
-                        <img src="{% static 'images/man.jpg' %}" alt="" class="img-resoinsive">
+                        <img src="{% static 'images/olorunshola.jpg' %}" alt="" class="img-resoinsive">
                     </div>
                  </div>
                  <div class="col-xs-12 col-sm-6 col-md-9 text-dark pt-5">
@@ -91,7 +108,7 @@
             <div class="row">
                 <div class="col-xs-12 col-sm-6 col-md-3">
                     <div style="width: 12rem;">
-                        <img src="{% static 'images/man.jpg' %}" alt="" class="img-resoinsive">
+                        <img src="{% static 'images/oladapo.jpg' %}" alt="" class="img-resoinsive">
                     </div>
                  </div>
                  <div class="col-xs-12 col-sm-6 col-md-9 text-dark pt-5">
@@ -113,7 +130,7 @@
             <div class="row">
                 <div class="col-xs-12 col-sm-6 col-md-3">
                     <div style="width: 12rem;">
-                        <img src="{% static 'images/man.jpg' %}" alt="" class="img-resoinsive">
+                        <img src="{% static 'images/hembe.jpg' %}" alt="" class="img-resoinsive">
                     </div>
                  </div>
                  <div class="col-xs-12 col-sm-6 col-md-9 text-dark pt-5">
@@ -139,7 +156,7 @@
             <div class="row">
                 <div class="col-xs-12 col-sm-6 col-md-3">
                     <div style="width: 12rem;">
-                        <img src="{% static 'images/man.jpg' %}" alt="" class="img-resoinsive">
+                        <img src="{% static 'images/pedro.jpg' %}" alt="" class="img-resoinsive">
                     </div>
                  </div>
                  <div class="col-xs-12 col-sm-6 col-md-9 text-dark pt-5">
@@ -160,7 +177,7 @@
             <div class="row">
                 <div class="col-xs-12 col-sm-6 col-md-3">
                     <div style="width: 12rem;">
-                        <img src="{% static 'images/man.jpg' %}" alt="" class="img-resoinsive">
+                        <img src="{% static 'images/olatunde.jpg' %}" alt="" class="img-resoinsive">
                     </div>
                  </div>
                  <div class="col-xs-12 col-sm-6 col-md-9 text-dark pt-5">
@@ -180,7 +197,7 @@
             <div class="row">
                 <div class="col-xs-12 col-sm-6 col-md-3">
                     <div style="width: 12rem;">
-                        <img src="{% static 'images/man.jpg' %}" alt="" class="img-resoinsive">
+                        <img src="{% static 'images/ifeoma.jpg' %}" alt="" class="img-resoinsive">
                     </div>
                  </div>
                  <div class="col-xs-12 col-sm-6 col-md-9 text-dark pt-5">
@@ -201,7 +218,7 @@
             <div class="row">
                 <div class="col-xs-12 col-sm-6 col-md-3">
                     <div style="width: 12rem;">
-                        <img src="{% static 'images/man.jpg' %}" alt="" class="img-resoinsive">
+                        <img src="{% static 'images/rashidat.jpg' %}" alt="" class="img-resoinsive">
                     </div>
                  </div>
                  <div class="col-xs-12 col-sm-6 col-md-9 text-dark pt-5">
@@ -217,9 +234,9 @@
             </div>
 
             <div class="row">
-                <div class="col-xs-12 col-sm-6 col-md-3">
+                <div class="col-xs-12 col-sm-6 col-md-3 pt-5">
                     <div style="width: 12rem;">
-                        <img src="{% static 'images/man.jpg' %}" alt="" class="img-resoinsive">
+                        <img src="{% static 'images/jonah.jpg' %}" alt="" class="img-resoinsive">
                     </div>
                  </div>
                  <div class="col-xs-12 col-sm-6 col-md-9 text-dark pt-5">
@@ -236,6 +253,7 @@
            
 
         </div>
+        
 
     </section>
     
